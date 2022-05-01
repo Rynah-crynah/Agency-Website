@@ -8,50 +8,209 @@ ul{
     box-sizing: border-box;
   
 }
+body{
+    background-color: rgb(255,255,255);
+    margin: 4%;
+}
 .container1{
     padding: 40px;
     margin: -8px;
-    margin-right: 13%;
+    background-color: rgb(253,251,252);
 }
 ul li{
     float: right;
     width: 120px;
-    text-align: center;
     font-size: 18px;
     display: center; 
     margin-top: 5px;
     padding: auto;
-    margin-right: 3%;   
+    margin-right: 2%;
+       
 }
 
 .Header1{
     font-size: 23px;
-    margin-left: 94px;
+    margin-left: 32px;
 }
 .Header2{
     font-size: 23px;
     margin-top: -26px;
-    margin-left: 190px;
+    margin-left: 130px;
 }
 .icon1{
-    margin-left: 100px;
-    margin-top: 9%;
+    margin-left: 40px;
+    margin-top: 3%;
     
 }
 .txt1{
-    margin-left: 100px;
-    margin-top: 3%;
+    margin-left: 0px;
+    margin-top: 4%;
     font-size: 46px;
     color: rgb(53,17,7);
+   
 }
-.img1{
-    margin-left: 70%;
-    margin-top: -20%;
-  
+.make{
+    display: flex;
+}
+.img1 img{
+    margin-left: 40%;
+    margin-top: -22%;
+   
+}
+.txt2{
+    margin-top: -18%;
+    margin-left: 6.6%;
+}
+.button1{
+    margin-left: 6.6%;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #2ca794;
+    color: white;
+    border: none;
+    margin-top: 1%;
+    box-shadow: 15px 15px 20px rgb(235, 207, 207);
 }
 
- 
+.button2{
+    margin-left: 3%;
+    height: 55px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 15px 15px 20px rgb(151, 150, 150);
+}
+.container2{
+    /* padding: 38px; */
+    margin: -7.5px;
+    background-color: white;
+    
+   
+    
+}
+.column1{
+    display: flex;
+}
+.box1{
+    width: 28%;
+    height: 82px;
+    background-color: rgb(255,255,255);
+    margin-left: 6%;
+    margin-top: 3.5%;
+    box-shadow: 1px 1px  gainsboro;
 
+}
+.box2{
+    width: 28%;
+    height: 82px;
+    background-color: rgb(255,255,255);
+    margin-left: 0.1%;
+    margin-top: 3.5%;
+    box-shadow: 1px 1px  gainsboro;
 
-  
+}
+.box3{
+    width: 28%;
+    height: 82px;
+    background-color: rgb(255,255,255);
+    margin-left: 0.1%;
+    margin-top: 3.5%;
+    box-shadow: 1px 1px  gainsboro;
+}
+.row1{
+    margin-left: 22%;
+    font-size: 15px;
+    color: black;
+    font-size: 28px;
+    margin-top: 5%;
+   
+}
+.row2{
+    margin-left: 22%;
+    font-size: 15px;
+    color: rgb(133,104,86);
+    margin-top: -7%;
 
+}
+.images{
+    display: flex;  
+}
+.slack{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.prudential{
+    margin-left: 9%;
+    margin-top: 2.5%;
+    width: 5%;
+    opacity: 50%;
+}
+.microsoft{
+    margin-left: 20%; 
+    margin-top: 0.5%;  
+}
+.zoover{
+    margin-left: 8%;
+    margin-top: 1%;
+    opacity: 50%;
+}
+.service{
+    margin-left: 45%;
+    margin-top: 3%;
+    padding: 40px;
+}
+.agency1{
+    margin-left: 45%;
+    font-size: 33px;
+    margin-top: -40px;
+}
+.agency2{
+    margin-left: 48%;
+    font-size: 33px;
+    margin-top: -33px;
+
+}
+.container4{
+    display: flex;
+   
+    /* background-color: rgb(255, 255, 255);
+    margin-right: 3%;
+    margin-left: 3%; */
+}
+.box4{
+    width: 28%;
+    height: 200px;
+    background-color: rgb(245,249,250);
+    margin-left: 5%;
+    margin-top: 3.5%;
+    box-shadow: 1px 1px  gainsboro;
+    border-left: 2%;
+
+   
+}
+.box5{
+    width: 28%;
+    height: 200px;
+    background-color: rgb(67,160,145);
+    margin-left: 0.1%;
+    margin-top: 3.5%;
+    box-shadow: 1px 1px  gainsboro;
+    border-left: 2%;
+   
+   
+}
+.box6{
+    width: 28%;
+    height: 200px;
+    background-color: rgb(235,245,253);
+    margin-left: 0.1%;
+    margin-top: 3.5%;
+    box-shadow: 1px 1px  gainsboro;
+
+}
+.row3{
+    /* margin-top: 10%; */
+}
